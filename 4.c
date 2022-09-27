@@ -1,4 +1,7 @@
-
+/*Faça um programa que lê dois valores e imprime: (0,1)
+a) se o primeiro valor for menor que o segundo, a lista de valores do primeiro até o segundo;
+b) se o primeiro valor for menor que o segundo a lista de valores do segundo até o primeiro
+em ordem decrescente;*/
 #include <stdio.h>
 
 int main()

@@ -1,3 +1,5 @@
+/*Dados um número natural n, exiba seu fatorial n!. */
+
 #include <stdio.h>
 
 

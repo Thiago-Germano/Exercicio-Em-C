@@ -1,3 +1,6 @@
+/*Faça um programa que mostre todos os números pares existentes entre 1 e 50.*/
+
+
 #include <stdio.h>
 
 

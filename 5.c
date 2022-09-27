@@ -1,8 +1,10 @@
+/* Escreva um programa que imprime a tabela ASCII (c贸digo decimal, c贸digo hexa, caractere)
+para os c贸digos de 0 a 127. */
 #include <stdio.h>
 
 int main()
 {
     for(int i = 0; i <128;i++){
-        printf("c骴igo decimal %d| c骴igo hexa %x| caractere %c\n",i,i,i);
+        printf("c贸digo decimal %d| c贸digo hexa %x| caractere %c\n",i,i,i);
     }
 }

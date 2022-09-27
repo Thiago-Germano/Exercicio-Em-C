@@ -1,3 +1,7 @@
+/*Desenvolva um programa que leia dez números do tipo inteiro ao usuário armazene esses
+dez números em um vetor. Para os valores dos elementos inseridos nas posições pares desse
+vetor, calcule o somatório deles, para os demais calcule a subtração desses valores. Em
+seguida, o programa deverá apresentar na tela os resultados.*/
 #include <stdio.h>
 
 int main(){
@@ -15,5 +19,5 @@ int main(){
 
         }
     }
-    printf("A soma dos valores sao %d e a subtra�ao e %d",soma,subtr);
+    printf("A soma dos valores sao %d e a subtraçao e %d",soma,subtr);
 }

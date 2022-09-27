@@ -1,4 +1,5 @@
-
+/*Crie um programa que receba o valor da temperatura em Fahrenheit e imprime o
+correspondente em Celsius e em Kelvin:*/
 
 #include <stdio.h>
 

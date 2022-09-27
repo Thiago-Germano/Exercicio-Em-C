@@ -1,3 +1,4 @@
+/*Crie um programa capaz de ler dois nomes de pessoas e imprimi-los em ordem alfabética.*/
 #include <stdio.h>
 #include <string.h>
 

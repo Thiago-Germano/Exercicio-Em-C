@@ -1,3 +1,5 @@
+/*Faça o programa que apresenta a seguinte saída, perguntando ao usuário o número
+máximo (no exemplo, 9). Este número deve ser sempre ímpar.*/
 #include <stdio.h>
 
 int main(){

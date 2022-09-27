@@ -1,3 +1,5 @@
+/*Escreva um programa para informar o maior elemento de um vetor de 5 posições do tipo
+inteiro*/
 #include <stdio.h>
 #define TamanhoArry 5
 int main(){
@@ -5,7 +7,7 @@ int main(){
      int maxi,menos;
 
      for (int i = 0; i<TamanhoArry; ++i){
-        printf("digite um numero na posi�ao %d: ",i);
+        printf("digite um numero na posiçao %d: ",i);
         scanf("%d",&num[i]);
         fflush(stdin);
         printf("\n\n");

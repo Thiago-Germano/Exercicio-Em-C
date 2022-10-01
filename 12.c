@@ -7,13 +7,11 @@ int main(){
      int num[10];
      int maxi,menos;
      char nomevelho[10],nomenovo[10];
-     char nome[10];
+     char listnomes[4][6] = {{"Pedro"},{"Joana"},{"Ismael"}
+     };
 
-     for (int i = 0; i<4; ++i){
-        printf("digite o nome: ");
-        gets(nome);
-
-        printf("digite a sua idade: ");
+     for (int i = 0; i<3; ++i){
+        printf("Digite a idade de %s: ",listnomes[i]);
         scanf("%d",&num[i]);
         fflush(stdin);
         printf("\n\n");
@@ -21,21 +19,20 @@ int main(){
         if(i == 0){
             menos =num[0];
             maxi = num[0];
-            strcpy (nomenovo, nome);
-            strcpy (nomevelho, nome);
+            strcpy (nomenovo, listnomes[i]);
+            strcpy (nomevelho, listnomes[i]);
 /*-----------------------------------------------------------------*/
         }else if( maxi < num[i]){
             maxi=  num[i];
-            strcpy (nomevelho, nome);
+            strcpy (nomevelho, listnomes[i]);
         }
         if(menos > num[i]){
             menos = num[i];
-            strcpy (nomenovo, nome);
+            strcpy (nomenovo, listnomes[i]);
 
         }
      }
 
      printf("O maior idade e %d o nome do individuo %s\n",maxi,nomevelho);
      printf("A menor idade e %d o nome do individuo  %s",menos,nomenovo);
-
 }

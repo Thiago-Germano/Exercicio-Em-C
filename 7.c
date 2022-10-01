@@ -1,5 +1,6 @@
-/*Implemente um programa que solicita as notas das duas provas feitas por cada um dosalunos de uma turma (as notas têm de estar no intervalo [0 10]) e imprime para cada um amédia das notas.
-O programa deve parar imediatamente após ter sido digitado o valor 50 paraa nota da primeira prova.*/
+/*Implemente um programa que solicita as notas das duas provas feitas por cada um dos alunos de uma turma 
+(as notas tÃªm de estar no intervalo [0 10]) e imprime para cada um amÃ©dia das notas.
+O programa deve parar imediatamente apÃ³s ter sido digitado o valor 50 paraa nota da primeira prova.*/
 
 
 #include <stdio.h>
@@ -11,7 +12,7 @@ int main(){
     printf("Quantos alunos na turma:");
     scanf("%d",&alunos);
 
-    for(int i =0; i<alunos;i++){
+    while(1){
 
         printf("\ndigite a primeira nota do aluno %d :",i);
         scanf("%f",&nota1);

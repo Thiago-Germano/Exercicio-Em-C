@@ -5,7 +5,7 @@ que as notas são informadas corretamente no intervalo de 1 a 10.*/
 
 #include <stdio.h>
 #include <string.h>
-#define TamanhoArry 2
+#define TamanhoArry 10
 
 int main(){
      int num,num2,soma,medias;

@@ -10,7 +10,7 @@ que as notas são informadas corretamente no intervalo de 1 a 10.*/
 int main(){
      int num,num2,soma,medias;
      int maxi,menos;
-     char nomevelho[10],nomenovo[10];
+     char nomevelho[40],nomenovo[40];
      char nome[10];
 
      for (int i = 0; i<TamanhoArry; ++i){

@@ -1,5 +1,5 @@
 /*Implemente um programa que solicita as notas das duas provas feitas por cada um dos alunos de uma turma 
-(as notas têm de estar no intervalo [0 10]) e imprime para cada um amédia das notas.
+(as notas têm de estar no intervalo [0 10]) e imprime para cada um a média das notas.
 O programa deve parar imediatamente após ter sido digitado o valor 50 paraa nota da primeira prova.*/
 
 
@@ -7,10 +7,8 @@ O programa deve parar imediatamente após ter sido digitado o valor 50 paraa not
 
 int main(){
     float nota1,nota2,media;
-    int alunos;
+    int i=0;
 
-    printf("Quantos alunos na turma:");
-    scanf("%d",&alunos);
 
     while(1){
 
@@ -28,5 +26,7 @@ int main(){
         }
 
         printf("\nA media do aluno%d e %.2f",i,media);
+        i++;
     }
 }
+

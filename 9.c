@@ -9,7 +9,7 @@ maior ou igual a 4 e menor que 6 D
 menor que 4 E*/
 
 #include <stdio.h>
-#include	<locale.h>
+#include <locale.h>
 
 
 int main(){
@@ -31,13 +31,13 @@ int main(){
     if(media_geral >= 9){
         printf("Sua média é %.2f e o seu conceito é A",media_geral);
     }
-    else if(media_geral >= 7.5 && media_geral < 9){
+    else if(7.5 <= media_geral < 9){
         printf("Sua média é %.2f e o seu conceito é B",media_geral);
     }
-    else if(media_geral >= 6 && media_geral < 7.5){
+    else if(6 <= media_geral < 7.5){
         printf("Sua média é %.2f e o seu conceito é C",media_geral);
     }
-    else if(media_geral >= 4 && media_geral < 6){
+    else if(4 <= media_geral < 6){
         printf("Sua média é %.2f e o seu conceito é D",media_geral);
     }
     else if(media_geral < 4){

@@ -1,9 +1,8 @@
 /*Desenvolva um programa para comparar a idade de Pedro, de Joana e de Ismael e
-informar quem é o mais velho. Considere que essas pessoas possuem idades diferentes. */
+informar quem Ã© o mais velho. Considere que essas pessoas possuem idades diferentes. */
 
 #include <stdio.h>
 #include <string.h>
-#define TamanhoArry 10
 int main(){
      int num[10];
      int maxi,menos;

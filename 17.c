@@ -1,6 +1,6 @@
-/*O quadrado de um número natural n é dado pela soma dos n primeiros números ímpares
-consecutivos. Por exemplo, 12=1, 22=1+3, 32=1+3+5, 42=1+3+5+7, etc. Dado um número n,
-calcule seu quadrado usando a soma de ímpares ao invés de produto.*/
+/*O quadrado de um nÃºmero natural n Ã© dado pela soma dos n primeiros nÃºmeros Ã­mpares
+consecutivos. Por exemplo, 12=1, 22=1+3, 32=1+3+5, 42=1+3+5+7, etc. Dado um nÃºmero n,
+calcule seu quadrado usando a soma de Ã­mpares ao invÃ©s de produto.*/
 
 
 int main(){
@@ -10,7 +10,7 @@ int main(){
     scanf("%d",&num);
 
 
-    printf("%d^2 = ",num);
+    printf("%d^2 = 0 ",num);
 
     for(int i = 0,cal=num*num; cal>resu; i++){
         if( i%2 != 0 ){

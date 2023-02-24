@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <string.h>
 
 typedef struct{
 	char nome[255];
@@ -16,7 +16,7 @@ int main(){
 
 	while(1){
 		printf("Quer continuar?  ");
-		scanf("%c",&resposta);
+		scanf("%s",&resposta);
 
 
 		if (resposta == "NAO"){
@@ -25,9 +25,13 @@ int main(){
 		printf("_=+=_comodo %d_=+=_\n",i);
 		fflush(stdin);
 		printf("Qual eh comodo? ");
-		scanf("%c",&com.nome);
+		scanf("%s",&com.nome);
+		fflush(stdin);
+
 		printf("Qual eh a largura?[m] ");
 		scanf("%d",&com.largura);
+		fflush(stdin);
+
 		printf("Qual eh o comprimento? [m]");
 		scanf("%d",&com.compr);
 

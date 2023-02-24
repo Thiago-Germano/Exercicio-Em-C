@@ -1,15 +1,16 @@
-/*Escreva um programa que leia um número na base decimal e em seguida imprima esse
-mesmo número nas bases octal e hexadecimal. */
 #include <stdio.h>
 
-int main()
-{
-    int num;
-    printf("digite um numero decimal: ");
-    scanf("%d",&num);
+int main(){
+	int v1,v2,v3;
+	v1=1;
+	v2=1;
+	v3=v1+v2;
 
-
-    printf("octal: %o\nhexadecimal: %X",num,num);
-
-    return 0;
+	printf("1-1");
+	for (int i=0; i<15;i++){
+		printf("-%d",v3);
+		v2=v1;
+		v1=v3;
+		v3 = v1+v2;
+	}
 }

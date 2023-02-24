@@ -1,16 +1,12 @@
-/*Crie um programa que receba o valor da temperatura em Fahrenheit e imprime o
-correspondente em Celsius e em Kelvin:*/
-
 #include <stdio.h>
+#include <math.h>
 
-int main()
-{
-    float temperatura,Celsius,Kelvin,calculo;
-    printf("digite a temperatura que voce deseja: ");
-    scanf("%f",&temperatura);
-
-    Celsius=((temperatura-32)*5)/9;
-    Kelvin=  273.15 + Celsius;
-    printf("Fahrenheit %.3f,Celsius %.2f,Kelvin %.3f",temperatura,Celsius,Kelvin);
-
+void main(){
+	float base;
+	float ex;
+	printf("Digite a base desejada:");
+	scanf("%f",&base);
+	printf("Digite o expoente desejado:");
+	scanf("%f",&ex);
+	printf("resultado: %.2f",pow(base,ex));
 }
